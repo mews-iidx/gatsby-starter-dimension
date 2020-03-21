@@ -3,6 +3,8 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
+import pic05 from '../images/pic05.jpg'
 
 class Main extends React.Component {
   render() {
@@ -29,28 +31,34 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
+
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          <h3> 経歴 </h3>
+          <li> エッジテクノロジー株式会社 (2019/4 - )</li>
+          <li> 車載向け組込みアプリ開発会社 (2015/4 - 2019/3) </li>
+          </p>
+          <p>
+          <h3> 画像処理･ディープラーニング </h3>
+          <li> ライブラリ環境構築(C++/Python) </li>
+          <li> 教師データの作成 </li>
+          <li> 画像, 推論, 精度および速度評価 </li>
+          <li> Jetson, Driveシリーズ向けの環境構築, チューニング </li>
+          <li> CUDAによる高速化(C++) </li>
+          <li> 本番環境へデプロイ </li>
+
+
+          </p>
+          <p>
+           <h3> スキル </h3>
+           C++ / Python / PHP / javascript  <br/>
+           caffe(c++) / YOLO(c++) / Tensorflow / keras / chainer  <br/>
+           OpenCV / ROS <br/>
+           AWS / GCP  <br/>
           </p>
           {close}
         </article>
@@ -140,25 +148,20 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/mews_base"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://www.facebook.com/m2dx765" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/mews-iidx/"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
