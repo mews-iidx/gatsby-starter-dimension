@@ -36,6 +36,10 @@ class Main extends React.Component {
           少しの技術だけで幸せになれる人はたくさんいると思っています。<br/>
           いわゆる普通エンジニアだけど、やれる事をやりたいと思っています。<br/>
           画像認識と業務効率化が好きです。<br/>
+          vim派。過激ではない。<br/>
+          </p>
+          <p>
+          自己表現のためWebフロントエンド系を修行中です。 このサイトはGatsby + Netlifyで構成されています。 Gatsby/React 修行中。 
           </p>
           {close}
         </article>
@@ -49,39 +53,41 @@ class Main extends React.Component {
         >
           <h2 className="major">Services</h2>
           <p>
-          <h3> 画像処理･ディープラーニング </h3>
-          5年程度の実務経験により、大体何かの役には立てるかと思います。<br/>
-          車向けや研究所向けなど、様々なお客様と共に開発してきました。<br/>
-          <li> ライブラリ環境構築(C++/Python) </li>
-          <li> 教師データの作成 </li>
-          <li> 画像, 推論, 精度および速度評価 </li>
-          <li> Jetson, Driveシリーズ向けの環境構築, チューニング </li>
-          <li> CUDAによる高速化(C++) </li>
-          <li> 本番環境へデプロイ </li>
-          <span className="image main">
-            <img src={od1} alt="" />
-          </span>
+            <h3> 画像処理･ディープラーニング </h3>
+            5年程度の実務経験により、大体何かの役には立てるかと思います。<br/>
+            車向けや研究所向けなど、様々なお客様と共に開発してきました。<br/>
+            <li> ライブラリ環境構築(C++/Python) </li>
+            <li> 教師データの作成 </li>
+            <li> 画像, 推論, 精度および速度評価 </li>
+            <li> Jetson, Driveシリーズ向けの環境構築, チューニング </li>
+            <li> CUDAによる高速化(C++) </li>
+            <li> 本番環境へデプロイ </li>
+            <span className="image main">
+              <img src={od1} alt="" />
+            </span>
           </p>
           <p>
-          <h3> bot開発 </h3>
-          趣味で自社のビジネスサイド向けによくBotを作っています。<br/>
-          <li> SlackやLINEのBotコンサルティング < /li>
-          <li> SlackやLINEの自動応答Bot開発 </li>
-          <li> Slackインテグレーションアプリ開発 </li>
-          <li> 各種サービス連携 </li>
-          <span className="image main">
-            <img src={robot} alt="" />
-          </span>
-          </p>
+            <h3> bot開発 </h3>
+            趣味で自社のビジネスサイド向けによくBotを作っています。<br/>
+            <li> SlackやLINEのBotコンサルティング < /li>
+            <li> SlackやLINEの自動応答Bot開発 </li>
+            <li> Slackインテグレーションアプリ開発 </li>
+            <li> 各種サービス連携 </li>
+            <li> Qtによるクロスプラットフォームのネイティブアプリケーション開発</li>
+            <li> Web GUI開発 </li>
+            <span className="image main">
+              <img src={robot} alt="" />
+            </span>
+            </p>
           <p>
-          <h3> 業務効率化 </h3>
-          こちらも趣味で、自身の単純作業やビジネスサイド向けに効率化を行っています。<br/>
-          必要に応じて開発も行います。(ほぼ開発してる。。)
-          <li> Webサイト・Excelなどの単純作業の自動化コンサルティングおよび実装 </li>
-          <li> スクレイピングツールの開発 </li>
-          <span className="image main">
-            <img src={int} alt="" />
-          </span>
+            <h3> 業務効率化 </h3>
+            こちらも趣味で、自身の単純作業やビジネスサイド向けに効率化を行っています。<br/>
+            必要に応じて開発も行います。(ほぼ開発してる。。)
+            <li> Webサイト・Excelなどの単純作業の自動化コンサルティングおよび実装 </li>
+            <li> スクレイピングツールの開発 </li>
+            <span className="image main">
+              <img src={int} alt="" />
+            </span>
           </p>
           
           {close}
@@ -98,27 +104,39 @@ class Main extends React.Component {
           <p>
           </p>
           <p>
-          <h3> 経歴 </h3>
-          <li> エッジテクノロジー株式会社 (2019/4 - )</li>
-          <li> 車載向け組込みアプリ開発会社 (2015/4 - 2019/3) </li>
+          <h2> 経歴 </h2>
+          <h3> エッジテクノロジー株式会社 (2019/4 - )</h3>
+            <li> 画像認識/処理系開発 </li>
+            <li> プリセールス･要件定義 </li>
+            <li> TreasureData をハブとしたDWH開発･運用･保守 </li>
+            <li> 社内向け業務効率化コンサルティング </li>
+          </p>
+          <p>
+
+          <h3> 車載向け組込みアプリ開発会社 (2015/4 - 2019/3) </h3>
+            <li> 画像認識/処理系案件  </li>
+            <li> Jetson お客様サポート </li>
+            <li> CUDAによる高速化 </li>
+            <li> データレイクの研究･開発</li>
+            <li> 社内サーバ管理者 </li>
           </p>
 
           <p>
-           <h3> 言語 </h3>
+           <h2> 言語 </h2>
            <li> C++ </li>
            <li> Python </li>
            <li> PHP </li>
            <li> java script </li>
           </p>
           <p>
-           <h3> 主要ライブラリ < /h3>
+           <h2> 主要ライブラリ < /h2>
            <li> OpenCV (C++/Python) </li>
            <li> CUDA (C++) </li>
            <li> Qt (C++/Python) </li>
            <li> TensorRT (C++) </li>
           </p>
           <p>
-           <h3> 機械学習系フレームワーク </h3>
+           <h2> 機械学習系フレームワーク </h2>
            <li> Tensorflow </li>
            <li> YOLO(C++)  </li>
            <li> caffe(C++) </li>
@@ -126,9 +144,15 @@ class Main extends React.Component {
            <li> chainer    </li>
           </p>
           <p>
-           <h3> クラウドサービス </h3>
-           <li> AWS </li>
-           <li> GCP </li>
+           <h2> クラウドサービス </h2>
+           <li> AWS (EC2, VPCなど) </li>
+           <li> GCP (VisionAPIのみ)</li>
+          </p>
+          <p>
+           <h2> Web系 </h2>
+           趣味程度にやります。自己表現のため修行中です。<br/>
+           <li> Gatsby React </li>
+           <li> laravel </li>
           </p>
           {close}
         </article>
@@ -141,6 +165,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
+          <p> 雑談・気軽な相談からお仕事の依頼まで、ぜひ気安く送ってみてください。</p>
           <form method="post" netlify-honeypot="bot-field" data-netlify="true">
           <input type="hidden" name="bot-field" />
             <div className="field half first">
