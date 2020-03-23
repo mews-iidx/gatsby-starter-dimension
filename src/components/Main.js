@@ -4,6 +4,7 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import od1 from '../images/object_detect_api.jpg'
+import od2 from '../images/predict.jpg'
 import robot from '../images/robot.jpg'
 import int from '../images/int.jpg'
 
@@ -63,7 +64,7 @@ class Main extends React.Component {
             <li> CUDAによる高速化(C++) </li>
             <li> 本番環境へデプロイ </li>
             <span className="image main">
-              <img src={od1} alt="" />
+              <img src={od2} alt="" />
             </span>
           </p>
           <p>
