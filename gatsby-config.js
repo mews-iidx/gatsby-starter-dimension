@@ -18,11 +18,12 @@ module.exports = {
         icon: 'src/images/icon.png', // This path is relative to the root of the site.
       },
     },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        name: `content`,
+        path: `${__dirname}/src/content`,
       },
     },
     'gatsby-plugin-sass',
