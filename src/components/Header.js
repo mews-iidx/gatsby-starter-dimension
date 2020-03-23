@@ -3,17 +3,12 @@ import React from 'react'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-      <span className="icon fa-diamond"></span>
-    </div>
     <div className="content">
       <div className="inner">
         <h1>mews-base</h1>
         <p>
-          少しの技術で多くの人の課題解決
-        <br/>
-          画像認識やbot開発など
-          
+          少しの技術で多くの人の課題解決 <br/>
+          画像認識やbot開発など 
         </p>
       </div>
     </div>
@@ -31,10 +26,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('services')
             }}
           >
-            Work
+            Services
           </button>
         </li>
         <li>
@@ -43,7 +38,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            About me
           </button>
         </li>
         <li>
