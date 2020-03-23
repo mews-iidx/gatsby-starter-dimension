@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'mews-base,
+    title: 'mews-base',
     author: 'mews',
     description: 'gatsby + netlify by HTML5 UP',
   },
