@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'mews-base',
     author: 'mews',
-    description: 'gatsby + netlify by HTML5 UP',
+    description: 'mews-base',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -16,6 +16,10 @@ module.exports = {
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/images/icon.png', // This path is relative to the root of the site.
+      },
+     resolve: `gatsby-plugin-typography`,
+     options: {
+       pathToConfigModule: `src/utils/typography`,
       },
     },
     `gatsby-transformer-remark`,
