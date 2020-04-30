@@ -32,11 +32,11 @@ class Main extends React.Component {
           <p>
           少しの技術だけで幸せになれる人はたくさんいると思っています。<br/>
           いわゆる普通エンジニアだけど、やれる事をやりたいと思っています。<br/>
-          画像認識と業務効率化が好きです。<br/>
+          Web開発と画像認識と業務効率化が好きです。<br/>
           vim派。過激ではない。<br/>
           </p>
           <p>
-          自己表現のためWebフロントエンド系を修行中です。 このサイトはGatsby + Netlifyで構成されています。 Gatsby/React 修行中。 
+          このサイトはGatsby + Netlifyで構成されています。
           </p>
           {close}
         </article>
@@ -141,15 +141,14 @@ class Main extends React.Component {
            <li> chainer    </li>
           </p>
           <p>
+           <h2> Web系 </h2>
+           <li> Gatsby React </li>
+           <li> laravel </li>
+          </p>
+          <p>
            <h2> クラウドサービス </h2>
            <li> AWS (EC2, VPCなど) </li>
            <li> GCP (VisionAPIのみ)</li>
-          </p>
-          <p>
-           <h2> Web系 </h2>
-           趣味程度にやります。自己表現のため修行中です。<br/>
-           <li> Gatsby React </li>
-           <li> laravel </li>
           </p>
           {close}
         </article>
@@ -162,7 +161,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <p> 雑談・気軽な相談からお仕事の依頼まで、ぜひ気安く送ってみてください。</p>
+          <p> 雑談・気軽な相談からお仕事の依頼まで、お気軽にどうぞ。</p>
           <form method="post" netlify-honeypot="bot-field" data-netlify="true">
           <input type="hidden" name="bot-field" />
             <div className="field half first">
